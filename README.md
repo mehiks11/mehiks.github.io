@@ -1,2 +1,1 @@
-# mehiks.github.io
-Personal Website
+# Personal Website
