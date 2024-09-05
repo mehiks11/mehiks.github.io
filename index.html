@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -11,7 +10,6 @@
   <link rel="stylesheet" href="css/styles-merged.css">
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="css/custom.css">
-
 
 </head>
 
@@ -30,10 +28,9 @@
 
       <nav role="navigation" class="probootstrap-nav hidden-xs">
         <ul class="probootstrap-main-nav">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="skills.html">Skills</a></li>
-          <li><a href="about.html">About Me</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <ul class="probootstrap-right-nav hidden-xs">
@@ -61,39 +58,17 @@
   </header>
   <!-- END: header -->
 
-  <section class="probootstrap-slider flexslider" style="height: 100px;">
+
+  <section class="probootstrap-slider flexslider">
     <ul class="slides">
-      <li style="background-image: url(img/fp3.jpeg); ">
+      <li style="background-image: url(img/mehika_w_cats.jpeg);">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2><a href="/projects.html" class="btn btn-primary">Data Science & Machine
-                    Learning Projects</a></h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li style="background-image: url(img/fp1.jpeg);">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <div class="slides-text probootstrap-animate">
-                <h2><a href="projects.html" class="btn btn-primary">Data Engineering
-                    Projects</a></h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li style="background-image: url(img/fp2.jpeg);">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <div class="slides-text probootstrap-animate">
-                <h2><a href="/projects.html" class="btn btn-primary">Web Development Projects</a>
-                </h2>
+                <h2>About Me</h2>
+                <p>I currently work at Island Records as a Data Analyst and doing A&R research.</p>
+                <p>Learn more below!</p>
               </div>
             </div>
           </div>
@@ -101,166 +76,147 @@
       </li>
     </ul>
   </section>
-  <!-- END: slider  -->
+  <section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
 
-  <!-- END section cta -->
+            <div class="icon">
+              <i class="icon-presentation"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Data Science & Machine Learning</h3>
+              <p> Experienced in data science and machine learning using Python in various industries.</p>
+              <p><a href="skills.html">Learn more</a></p>
+            </div>
 
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-database"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Data Engineering</h3>
+              <p> Experienced in data pipelining, google cloud, postgreSQL, and dbt.</p>
+              <p><a href="skills.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-laptop3"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Web Development</h3>
+              <p> Begginer level full-stack development for data systems and web-based data visualizations, using React,
+                Firebase, D3.js. </p>
+              <p><a href="skills.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <div class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
+          <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h3 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Education
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p>I studied Sociology with Statistics & Data Science at Yale College (DC '22'!)
+                    My senior thesis was an NLP study, studying cultural framing of breast cancer and its relation to
+                    patient conceptions of their illness. Spring 2021, I took the semester off to attend a Data Science
+                    & Machine
+                    Learning Immersive through Metis.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Experience
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <p>I currently work in the music industry in a data role. I've also had several independent and formal
+                    internship/fellowship data experiences in various industries, including health/medicine,
+                    physics/astronomy, and the nonprofit sector.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                    href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Personal
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <p> I'm originally from Greenville, SC! In my freetime, some of my favorite hobbies are playing
+                    guitar, drawing, and hiking! I also
+                    have a black belt in Okinawan Shotokan Karate. I still practice and spar from time to time when I'm
+                    home with my dojo in South Carolina :). </p>
+                </div>
+              </div>
+            </div>
 
+          </div>
+          <!-- END panel-group -->
+        </div>
+        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
 
-  <div class="container">
-    <div class="probootstrap-cta probootstrap-animate">
-      <h2 class="mb20">Welcome!</h2>
+          <figure>
+            <div class="probootstrap-video">
+              <!-- <a href="/img/caesar.mov"></a> -->
 
-      <h2 class="mb20">What am I working on right now?</h2>
-      <p> I just finished my last semester at Yale! Last summer, I was a data science intern at <a
-          href='http://upandup.co' , target='_blank'>Up&Up</a>, a
-        startup aiming to help renters build wealth through
-        renting. Due to economic conditions, my official full-time start date at the startup was postponed. With the
-        support of those at the company, I am currently seeking full time employment elsewhere, where I might start work
-        at
-        the time I originally intended to.
-        I currently tutor students of all ages in math and
-        statistics, and also teach python coding
-        and
-        data science/machine learning!
-      </p>
-      <p>
-        Last year, I aided
-        machine learning research at Yale. I assissted in a
-        research
-        endeavor involving <a href="https://arxiv.org/abs/2201.02632" target="_blank">Baryon Pasting
-          Modeling</a>
-        in the physics department. I also
-        worked as a computer
-        science intern at <a href="https://detect.com/about" target="_blank">Detect</a>, a biotech startup building
-        at-home PCR-quality
-        COVID-19 tests. The semester ended with my finished Thesis on Breast Cancer Patient Illness Narratives, which
-        was
-        a
-        natural language processing analysis of online patient forums. Feel free to read it <a
-          href="projects.html#thesis">here</a>! </p>
+              <img src="img/mehiks.jpg" class="img-responsive img-border" width="300px" style="margin-left: 30%;">
+            </div>
 
+          </figure>
 
-      <h2 class="mb20">My Current Professional Goals</h2>
-      <p>
-        Working as an intern at Up&Up this summer has shown me that I would like to pursue work in a similar fast paced
-        and
-        exciting environment after graduation!
-      </p>
-      <p><a href="/img/Mehika_Patel_Resume.pdf" download="Mehika_Patel.pdf" role="button"
-          class="btn btn-primary">Download My Resume!</a></p>
-      <!-- <p><a href="/img/Thesis_Final.pdf" download="Mehika_Patel_YC_Thesis.pdf" role="button"
-          class="btn btn-primary">Download My
-          Thesis!</a></p> -->
+        </div>
+      </div>
     </div>
   </div>
   <!-- END section -->
 
 
 
-  <section class="probootstrap-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 section-heading probootstrap-animate">
-          <h2>Most Recent Projects (See More <a href="projects.html">Here</a>)</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <video class="img-responsive img-border" controls>
-                <source src="img/nbhdapp.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Neighborhood Similarity Metric</h2>
-              <p class="category">Data Pipelining, Machine Learning, Technical Framework</p>
-              <p>This app is a framework built of multiple parts that can be altered to fit varying business needs. It
-                uses a similarity metric to find neighborhoods similar to ones the startup have previously successully
-                invested in. The project involved developing a framework of data pipelining, modeling, and user-based
-                flexibility that can be built upon and easily scaled for use in future markets!
-              </p>
-              <p><a href="http://mehika.upandup.co/home" target="_blank">Check it out!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <img src="img/featured_4.png" class="img-responsive img-border">
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Data Reporting System</h2>
-              <p class="category">Cloud-based Data System </p>
-              <p>This is a project I am working on as part of my fellowship with Credit Counseling
-                Services of
-                Savannah,
-                a nonprofit credit counseling organization. I was granted a Cohen Summer Public Service
-                fellowship to
-                conduct a data
-                report for the
-                nonprofit. Along the way, I wanted to automate my work so that they'd be able to run the
-                same
-                reports
-                and analyses I was running, but on their own time, with just the click of a button! This
-                project is
-                being built upon currently and will eventually include reporting capabilities on all
-                their services.
-                I am using google cloud functions to trigger emails to clients, running python to pull a
-                report
-                given
-                the client data and the survey data. The system is built with React, Node.js, FireBase,
-                Python,
-                and google cloud.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="https://mehiks11.github.io/violencetrends.github.io/" target="_blank"><img
-                  src="img/featured_1.png" class="img-responsive img-border"></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">National Violence Trends</h2>
-              <p class="category">This web-based data interactive visualization displays national violence levels
-                indicated
-                by
-                homicide
-                rates. It was my final project for my fellowship with <a href="https://www.data2thepeople.org"
-                  target="_blank">Data 2 the People</a>,
-                related to our
-                work with a
-                local violence prevention organization. Made with HTML,CSS,JS (D3, jquery).</p>
-              <p><a href="https://mehiks11.github.io/violencetrends.github.io/" target="_blank">Check it out!</a></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- END section -->
-
-
   <footer class="probootstrap-footer probootstrap-bg">
     <div class="container">
       <div class="row mb60">
         <div class="col-md-3">
-          <div class="probootstrap-footer-widget">
-            <h4 class="heading">About Mehika.</h4>
-            <p> Long, long ago, under a waning crescent moon clouded by a foggy sky...</p>
-            <p><a href="/about.html">Read more...</a></p>
-          </div>
         </div>
         <div class="col-md-3">
           <div class="probootstrap-footer-widget probootstrap-link-wrap">
             <h4 class="heading">Quick Links</h4>
             <ul class="stack-link">
               <li><a href="/index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="index.html">About</a></li>
               <li><a href="skills.html">Skills</a></li>
               <li><a href="projects.html">Projects</a></li>
             </ul>
@@ -270,22 +226,8 @@
           <div class="probootstrap-footer-widget">
             <h4 class="heading">More Links</h4>
             <ul class="stack-link">
-              <li><a href="https://medium.com/@mehika.patel" target="_blank">Medium Blog</a></li>
-              <li><a href="/img/Mehika_Patel_Resume.pdf" download="Mehika_Patel.pdf">Download CV</a></li>
               <li><a href="/contact.html">Contact</a></li>
             </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h4 class="heading">Subscribe to my blog</h4>
-            <p>I'll be adding this feature soon!</p>
-            <form action="#">
-              <div class="form-field">
-                <input type="text" class="form-control" placeholder="Enter your email">
-                <button class="btn btn-subscribe">Send</button>
-              </div>
-            </form>
           </div>
         </div>
       </div>
@@ -309,10 +251,11 @@
   <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
   </div>
+
+
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
-
 
 </body>
 
